@@ -1,98 +1,135 @@
 /******** GLOBAL STYLES ********/
 body {
-
+color: #000000;
+font-size: 16px;
+font-family: "Montserrat", Arial, Helvetica, sans-serif;
 }
 
 h1,
 h2,
 h3,
 h4 {
-
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 h1 {
-
+    font-size: 30px;
 }
 
 h2 {
-
+    font-size: 24px;
 }
 
 h3 {
-
+    font-size: 20px;
 }
 
 h4 {
-
+    font-size: 12px;
 }
 
 p {
-
+    line-height: 36px;
 }
 
 .content-wrapper {
-
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
 }
 
 /******** HEADER STYLES ********/
+
 header h1 {
-    outline: 3px dotted red; 
+    /* outline: 3px dotted red; */
+    width: 300px;
+    float: left;
+    margin: 0;
+    padding: 36px 0;
 
 }
 
 header h1 span {
-
+    color: #45610e;
 }
 
 header nav {
-    outline: 3px dotted red;
+    /* outline: 3px dotted red; */
+    width: 400px;
+    float: right;
+    padding: 44px 0;
 
 }
 
 header nav ul {
-
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 
 header nav ul li {
-
+    display: inline-block;
+    float: right;
+    /*margin: 50px 20px 50px 0; */
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 header nav ul li a {
-
+    text-decoration: none;
+    color: #45610E;
 }
 
 /********  MAIN STYLES ********/
 /******** TOP SECTION ********/
 .main-image img {
-
+    border-top: 3px solid #77a466;
+    border-bottom: 3px solid #77a466;
 }
 
 .main-title h2 {
-
+    color: #45610e;
+    padding: 5px 0;
 }
 
 /******** BOTTOM SECTION ********/
 .bottom-section .content-wrapper {
-
+    border: 5px solid #eee;
 }
 
-.section-one,
-.section-two,
-.section-three {
-    outline: 3px dotted red; 
-
+.bottom-section h3 {
+    text-align: center;
+    padding: 30px 0px;
 }
 
-.section-one {
-    
+.bottom-section p {
+    text-align: left;
 }
 
-.section-two {
-
+.todays-specials,
+.latest-review,
+.contact {
+    box-sizing: border-box;
+    float: left;
+    padding: 0 40px;
 }
 
-.section-three {
+.todays-specials {
+   width: 350px; 
+}
 
+.latest-review {
+    width: 500px;
+    border-right: 5px solid #eee;
+    border-left: 5px solid #eee;
+}
+
+.contact {
+    width: 350px;
 }
 
 .bottom-section h3 {
@@ -100,18 +137,24 @@ header nav ul li a {
 }
 
 .menu-list {
-
+    color: #45610e;
+    padding-left: 0;
+    list-style: none;
 }
 
 .menu-list li {
-
+    line-height: 36px;
 }
 
 /******** FOOTER STYLES ********/
 footer {
-
+    text-align: center;
+    margin-top: 8px;
 }
 
 footer span {
-
+    font-family: "Galada";
+    color: #45610e;
+    font-weight: bold;
+    font-size: 14px;
 }
